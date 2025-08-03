@@ -3,6 +3,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  base: '/cicd_1/', // exact match to repo name
   plugins: [react()],
-  base: '/cicd_1/', // 👈 matches your GitHub repo name
-});
+})
+
