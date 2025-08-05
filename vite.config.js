@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/cicd_1/', // 👈 important!
+  base: '/cicd_1/' // ✅ MUST match your GitHub repo name
 })
